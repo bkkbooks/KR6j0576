@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0576/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0576/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 諸佛集會陀羅尼經
+  identifiers:
+    krp: KR6j0576
+    cbeta: T21n1346
+    cbeta_old_id: T21n1346
+    authorityid: CA0004130
+    json_key: T1346
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1346.xml
+    old_id: T21n1346
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0576_000-T.yaml, hash: 'sha256:a5644a033bdff67d6c15c6377b900934c587b38adc6bf996798f8816f2f15ca7'}
+  - {seq: 1, filename: KR6j0576_001-T.yaml, hash: 'sha256:f9c647d8c7e6c5cf09cdd09de95d97a97050c0c622b633978cbeb447283e9942'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0576_000-T.markers.yaml, hash: 'sha256:9c12d2e351be4f61be13a62221f06107d52f8814a7dc3d8a623f62dbd035f209'}
+  - {seq: 1, role: markers, filename: assets/KR6j0576_001-T.markers.yaml, hash: 'sha256:c83f41a00ffb4cc54e0cb7ed4ae9334b309ef0d0bb46e469096ef178ea0153f1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0576_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1441
+  label: 諸佛集會陀羅尼經一卷
+  type: juan
+  level: 1
+hash: sha256:6dfe3f39e3ade99f5163e3fd6473715191127f39fe017d5d03bc8a5af5ba10db
