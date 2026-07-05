@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0576_000.yaml, hash: 'sha256:a5644a033bdff67d6c15c6377b900934c587b38adc6bf996798f8816f2f15ca7'}
-  - {seq: 1, filename: KR6j0576_001.yaml, hash: 'sha256:7702334cca17a81b04e0c2bb002b6018f49e28912a533ab3e79ccc4d4babb76c'}
+  - {seq: 1, filename: KR6j0576_001.yaml, hash: 'sha256:f9c647d8c7e6c5cf09cdd09de95d97a97050c0c622b633978cbeb447283e9942'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0576_001.markers.yaml, hash: 'sha256:a88b53dbcfbae1031644a55c5800462e9cdab7586d5a6ea8982a31fdb6ed14a4'}
+  - {seq: 0, role: markers, filename: assets/KR6j0576_000.markers.yaml, hash: 'sha256:c5daac19376577f2019e099485eb1f62755f7b258590ac8b2db0a1aee2cc591b'}
+  - {seq: 1, role: markers, filename: assets/KR6j0576_001.markers.yaml, hash: 'sha256:2dfa8f6c5fcb4ac7540fac641d32bd8fa3737c5642ebe64074c8afb2f7d9146e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 諸佛集會陀羅尼經一卷
   type: juan
   level: 1
-hash: sha256:f908bf498ebc41c11f596c993609b49c6fc5cd6bf8422fe5fab5e83976bff289
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:b42bf4c796a9f9b6e96ebcf6f168e73f2aa59e742792978d701c845b187d7806
