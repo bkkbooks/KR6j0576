@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0576/v1
 canonical_location: https://kanripo.org/bkk/KR6j0576/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 諸佛集會陀羅尼經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0576_000.yaml, hash: 'sha256:a5644a033bdff67d6c15c6377b900934c587b38adc6bf996798f8816f2f15ca7'}
-  - {seq: 1, filename: KR6j0576_001.yaml, hash: 'sha256:f9c647d8c7e6c5cf09cdd09de95d97a97050c0c622b633978cbeb447283e9942'}
+  - {seq: 1, filename: KR6j0576_001.yaml, hash: 'sha256:3e367da4efc266f190709b14aa3d487a251d2542b071662c2d883fd3a1ddbe50'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0576_000.markers.yaml, hash: 'sha256:c5daac19376577f2019e099485eb1f62755f7b258590ac8b2db0a1aee2cc591b'}
-  - {seq: 1, role: markers, filename: assets/KR6j0576_001.markers.yaml, hash: 'sha256:2dfa8f6c5fcb4ac7540fac641d32bd8fa3737c5642ebe64074c8afb2f7d9146e'}
+  - {seq: 1, role: markers, filename: assets/KR6j0576_001.markers.yaml, hash: 'sha256:369563a8698f37093f7b037f410c923c5b240afa5cf7746618bcfc28abd9564b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 諸佛集會陀羅尼經一卷
   type: juan
   level: 1
-hash: sha256:b42bf4c796a9f9b6e96ebcf6f168e73f2aa59e742792978d701c845b187d7806
+hash: sha256:ebba31a141b348450d203c9db38d31a61023875c5ea4c40aeecb5496c75b3098
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
